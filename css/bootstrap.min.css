@@ -8,10 +8,37 @@
 h1 {
     color: grey;
     font-size: 250px;
+    text-align:center;
     
 }
+ h2 {
+ 	color: darkgrey;
+ 	font-size: 50px;
+ 	text-align:center;
+ }
+
+ h3 {
+ 	color:grey;
+ 	font-size: 50px;
+ 	text-align: center;
+ }
 body {
-    color: grey;
+    background-color: lightblue;
 }
 
+p{
+	font-family: helvetica;
+	font-size: 30px;
+	text-align: center;
+}
 
+img {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+   width: 100%;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}

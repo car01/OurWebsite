@@ -58,6 +58,7 @@ li {
 li a {
     display: block;
     color: white;
+    font-family: helvetica;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,4 +67,8 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }

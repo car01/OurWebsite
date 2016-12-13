@@ -7,19 +7,39 @@
 
 h1 {
     color: grey;
-    font-size: 250px;
+    font-size: 100px;
     text-align:center;
     
 }
  h2 {
  	color: darkgrey;
- 	font-size: 50px;
+ 	font-size: 40px;
  	text-align:center;
+ 	padding: 20px 30px 50px 20px;
  }
 
  h3 {
  	color:grey;
- 	font-size: 50px;
+ 	font-size: 30px;
+ 	text-align: center;
+ 	padding: 20px 30px 50px 20px;
+ }
+
+ h4 {
+ 	color:grey;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+ h5 {
+ 	color:grey;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+ h6 {
+ 	color:grey;
+ 	font-size: 30px;
  	text-align: center;
  }
 body {
@@ -28,15 +48,24 @@ body {
 
 p{
 	font-family: helvetica;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
+    padding: 20px 30px 50px 20px;
+}
+
+form{
+
+	border: 6px darkgrey;
+	padding: 25px 50px 75px 100px;
 }
 
 img {
     opacity: 0.8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
    width: 100%;
+   padding-bottom: 50px;
 }
+
 
 img:hover {
     opacity: 1.0;
@@ -62,7 +91,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+    font-size: 16px;
+} /* Menu bar*/
+
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
@@ -72,3 +103,4 @@ li a:hover {
 .active {
     background-color: #4CAF50;
 }
+
